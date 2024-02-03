@@ -1,0 +1,352 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.footer{
+    background-color: whitesmoke;
+    width: 1343px;
+    height: 154vh;
+    flex-wrap: wrap;
+}
+.footer .up{
+    display: flex;
+    height: 410px;
+    width: 1343px;
+    background-color: rgb(77 77 77);
+    flex-wrap: wrap;
+}
+.footer .up .top{
+    width: 672px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.footer .up .top .img{
+    padding-left: 200px;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+.footer .up .pin{
+    padding-top: 49px;
+    width: 500px;
+    flex-wrap: wrap;
+   
+}
+.footer .up .pin .get{
+    padding-left: 136px;
+    color: rgb(237 182 84);
+    font-size: 64px;
+    flex-wrap: wrap;
+    font-family: 'Drama Regular';
+    font-weight: 500;
+}
+.footer .up .pin .YUM{
+    color: white;
+    padding-left: 25px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    flex-wrap: wrap;
+    font-size: 24px;
+    font-family: 'arvo';
+  
+}
+.footer .up .pin .ebook{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #F7F7F7;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 3px;
+    font-weight:300;
+}
+.footer .up .pin .name{
+    margin-left: 5px;
+    font-size: 15px;
+    padding: 15 1 15 1;
+    flex-wrap: wrap;
+    height: 50px;
+    padding-left: 10px;
+    font-family: 'arvo';
+}
+.footer .up .pin .mail{
+    font-size: 15px;
+    padding: 15 8 15 6;
+    display: inline;
+    flex-wrap: wrap;
+    height: 50px;
+    padding-left: 10px;
+    font-family: 'arvo';
+}
+.footer .up .pin .go{
+    display: inline;
+    font-size: 18px;
+    background-color: #edb654;
+    padding: 13px 14px 14px;
+    flex-wrap: wrap;
+    font-family: 'open sans';
+    font-weight: 600;
+}
+.footer .up .pin .go a{
+    display: inline;
+    text-decoration: none;
+    color: white;
+    flex-wrap: wrap;
+}
+.footer .down{
+    flex-wrap: wrap;
+    display: flex;
+}
+.footer .down .blog{
+    width: 672px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.footer .down .blog .li{
+    display: flex;
+    list-style-type: none;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    flex-wrap: wrap;
+}
+.footer .down .blog .li a:hover{
+    color: #723f5f;
+}
+
+.footer .down .blog .li a{
+    text-decoration: none;
+    flex-wrap: wrap;
+    color: gray;
+}
+.footer .down .blog .list{
+    display: flex;
+    list-style-type: none;
+    padding-bottom: 10px;
+    padding-left: 140px;
+    flex-wrap: wrap;
+}
+.footer .down .blog .list a:hover{
+    color: #723f5f;
+}
+.footer .down .blog .list a{
+    text-decoration: none;
+    color: gray;
+    flex-wrap: wrap;
+}
+.footer .down .form{
+    width: 671px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.footer .down .form .arsh{
+    display: flex;
+    background-color: #723f5f;
+   flex-direction: column;
+    margin-top: 47px;
+    margin-left: 30px;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    HEIGHT: 200px;
+    width: 550px;
+}
+
+.footer .form .otherBrands{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 0;
+    gap: 30px;
+    text-transform: uppercase;
+}
+
+.footer .form .otherBrands .brands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer .form .otherBrands .brands img{
+    filter: grayscale();
+}
+
+.footer .form .otherBrands .brands img:hover{
+    filter: none;
+}
+
+.footer .down .form .arsh h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -62px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+
+.footer .down .form .arsh .updates{
+    /* padding-left: 120px; */
+    flex-wrap: wrap;
+    font-family: 'Drama Regular';
+    font-size: 64px;
+    display: inline;
+    font-weight: 200;
+}
+.footer .down .form .arsh .for{
+    font-weight: 600;
+    display: inline;
+}
+.footer .down .form .arsh .free{
+    /* padding-top: 5px;
+    padding-left: 80px; */
+    flex-wrap: wrap;
+    font-family: 'Lora', serif;
+    font-weight: 100;
+    color: rgb(205, 205, 205);
+    margin-top: -40px;
+    padding-left: 10px;
+}
+
+.footer .down .form .arsh .forar{
+    margin-top: 20px;
+    font-size: 19px;
+    font-family: 'arvo';
+    letter-spacing: 2px;
+}
+.arsh .inputar{
+    display: flex;
+    margin-top: 2px;
+    padding: 0 30px;
+   
+}
+
+
+.footer .down .form .arsh .email{
+    font-size: 15px;
+    
+    flex-wrap: wrap;
+    height: 50px;
+    margin-left: 4px;
+   
+    
+}
+.footer .down .form .arsh .enter{
+    
+    font-size: 18px;
+    background-color: #edb654;
+    padding: 10px 13px;
+    margin-left: 4px;
+    font-family: 'open sans';
+    font-weight: 700;
+    color: white;
+   
+   
+}
+.footer .down .form .arsh .enter a{
+    display: inline;
+    text-decoration: none;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.footer .insta{
+    display: flex;
+    margin-top: 50px;
+    gap: 25px;
+}
+.footer .insta .Fcircle{
+    width: 3.55%;
+    height: 36px;
+    border-radius: 50%;
+    background-color: rgba(114, 63, 95, 0.9);
+    text-align: center;
+   
+    padding-left: 6px;
+    padding-top: 3px;
+    font-size: 10px;
+}
+.insta li{
+    list-style: none;
+}
+.insta li .fa-brands { font-size: 31px;
+padding-right: 8px;
+color: white;
+}
+
+.second-footer{
+    padding: 0 10%;
+}
+
+.second-footer .copyright a{
+    width: 250px;
+    display: inline-block;
+}
+
+.second-footer .copyright{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.second-footer .copy{
+    color: #888;
+    margin-top: -10px;
+}
+
+.second-footer .tnc{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    gap: 30px;
+}
+
+.second-footer .tnc a{
+    color: #888;
+}
+.heark{
+    border-radius: 50%;
+   
+    position: fixed;
+    right: 11px;
+    bottom: 100px;
+    background-color: white;
+    
+    box-shadow: -1px 5px 57px -9px black;
+}
+.heark .fa-regular{
+    font-size: 20px;
+    padding: 15px;
+    color: rgba(114, 63, 95, 0.9);
+}
+.research{
+    /* height: 50px;
+    width: 50px; */
+    border-radius: 50%;
+    background-color: rgba(114, 63, 95, 0.9);
+    font-size: 20px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+   
+    position: fixed;
+    bottom:30px ;
+    right: 11px;
+}
+.research:hover{
+    opacity: 0.8;
+}
+.searchbar{
+    color: white;
+}
+.searchbar  .fa-magnifying-glass{
+    padding: 15px;
+    color: white;
+}

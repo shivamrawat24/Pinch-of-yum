@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.sign {
+  background-color: #734060;
+  display: flex;
+  align-items: center;
+  font-family: "open sans";
+  font-size: 15px;
+  font-weight: 800;
+  color: #ddc5d8;
+  justify-content: center;
+  padding: 1% 10px;
+}
+
+.sign p {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+
+.fa-heart {
+  font-size: 10px;
+  color: goldenrod;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.fa-arrow-right {
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.fa-xmark{
+    margin-left: auto;
+    cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+
+  align-items: center;
+  padding: 25px 5% 8px;
+}
+
+nav .logo {
+  margin-right: auto;
+}
+
+nav .logo a {
+  width: 280px;
+  font-weight: 900;
+}
+
+nav ul li a {
+  display: block;
+  font-family: "open sans";
+  font-weight: 800;
+}
+
+nav li {
+  margin: 0 20px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.simple p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5% 0;
+  font-family: "Arvo", serif;
+  font-weight: 800;
+  letter-spacing: 5px;
+  font-size: 15px;
+}
+
+.simple a {
+  font-family: "Drama Regular";
+  font-size: 40px;
+  color: rgba(114, 63, 95, 1);
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgba(114, 63, 95, 1);
+}
+
+.khushbig {
+  background-color: rgb(247 247 247);
+  position: relative;
+  padding: 50px 0;
+  
+}
+
+.recipeK a {
+  width: 280px;
+  height: 400px;
+  position: relative;
+  margin: 15px 0;
+}
+
+.recipeK a img {
+  width: 100%;
+  height: 100%;
+}
+
+.recipeK {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 70px 30px 60px;
+  flex-wrap: wrap;
+}
+
+.recipeK a:hover {
+  opacity: 0.6;
+}
+
+.healthy {
+  background: rgb(227, 166, 61);
+
+  padding: 10px 20px;
+  position: absolute;
+  bottom: -5%;
+  left: 23%;
+  font-family: "open sans";
+  color: white;
+  font-size: 12px;
+  letter-spacing: 4px;
+  font-weight: 800;
+}
+
+.bigcircle {
+  display: flex;
+  justify-content: space-evenly;
+  padding:0 60px 5%;
+  flex-wrap: wrap;
+}
+
+.circle {
+  text-decoration: none;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin: 25px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.foodname {
+  font-family: "open sans";
+  font-size: 15px;
+  font-weight: 750;
+  text-align: center;
+}
+
+.circle:hover {
+  opacity: 0.6;
+}
+
+.bigsearch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.search-1 {
+  background-color: white;
+  border: 1px solid grey;
+  width: 35%;
+  height: 50px;
+}
+
+.search-1 input {
+  border: none;
+  outline: none;
+  font-size: 19px;
+  padding: 2px 0;
+  height: 48px;
+  width: 90%;
+}
+
+.fa-magnifying-glass {
+  width: 8%;
+  padding: 10px;
+  font-size: 20px;
+  color: #734060;
+}
+
+.bigsearch p {
+  font-family: "drama regular";
+  font-size: 70px;
+  margin: 0 30px;
+  opacity: 0.7;
+  margin-top: -13px;
+}
+
+.bigsearch a {
+  background-color: #734060;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  color: white;
+  display: block;
+  padding: 1% 20px;
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+.bigsearch .viewk:hover{
+  background-color: black;
+}

@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap");
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.shivam {
+    /* height: 800px; */
+    width: 85%;
+    background-color: white;
+
+
+    /* margin-left: 50px; */
+    margin-left: 90px;
+    margin-right: 90px;
+
+}
+
+.shivam .row1s {
+    width: 100%;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    /* flex-wrap: wrap; */
+}
+
+.shivam .row1s h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: .75rem;
+    letter-spacing: 1.50px;
+
+    word-spacing: 2px;
+    font-family: 'open sans';
+
+    color: rgb(237 182 84);
+
+}
+
+.shivam .row1s ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    flex-wrap: wrap;
+}
+
+.shivam .row1s ul li {
+    list-style: none;
+    width: 120px;
+}
+
+.shivam ul.head1 {
+
+    width: 200px;
+    color: blueviolet;
+    font-weight: 800;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.shivam .row2s {
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-top: 50px;
+    background: color #4d4d4d;
+    flex-wrap: wrap;
+}
+
+.shivam .row2s .column1 {
+    /* height: 200vh; */
+    width: 66%;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.horigin {
+    opacity: 0.5;
+}
+
+.shivam .row2s .column1 .H2 {
+    color: #734060;
+    font-size: .938rem;
+    font-weight: 700;
+    font-family: "font-family: 'Arvo', serif;";
+    letter-spacing: 1px;
+}
+
+/* .shivam .row2s .column1 .div1 .div1a h2{
+    color:red;
+    text-align: end;
+} */
+.shivam .row2s .column1 .div1 {
+    /* height: 250px ; */
+    width: 96%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .shivam .column1 .divi1 a{
+    opacity: 0.2;
+} */
+
+.shivam .row2s .column1 .div1 .div1a img {
+    /* height: 238px; */
+    width: 238px;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+.shivam .row2s .column1 .div1 .div1a img:hover {
+    opacity: 0.7;
+}
+
+.shivam .row2s .column1 .div1 .div1b {
+    margin-left: 10px;
+    flex-wrap: wrap;
+}
+
+.shivam .row2s .column1 .div1 .div1b h4 {
+    color: #999999;
+    font-size: 12px;
+    font-weight: 700;
+    flex-wrap: wrap;
+}
+
+.shivam .row2s .column1 .div1 .div1b .Good {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Domaine Display, Georgia, Cambria, Times New Roman, Times, serif;
+    font-size: 1.6rem;
+    font-weight: 800;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.shivam .row2s .column1 .div1 .div1b .Good:hover {
+    text-decoration: underline;
+}
+
+.shivam .row2s .column1 .div1 .div1b p {
+    font-family: Bitter, Georgia, Cambria, Times New Roman, Times, serif;
+    color: rgb(77 77 77);
+    font-weight: 500;
+    font-size: 1rem;
+    flex-wrap: wrap;
+
+}
+
+.shivam .row2s .column1 .div1 .div1b h3 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #edb654;
+    font-family: ConsulSans-750, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.shivam .row2s .column1 .div1 .div1b h3:hover {
+    color: rgb(18, 18, 32);
+}
+
+.shivam .row2s .column1 .div1b p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* margin-left: 10px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-weight: 700;
+    word-spacing: 1px;
+
+}
+
+.shivam .column1 .button1s button {
+    height: 50px;
+    width: 60%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* margin:10%; */
+    background-color: rgba(61, 10, 42, 0.9);
+    font-weight: 900;
+    color: white;
+    word-spacing: 2px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.shivam .column1 .button1s button:hover {
+    background-color: black;
+    transition-duration: 2;
+}
+
+
+
+
+
+.shivam .row2s .column2 {
+    /* height: 94vh; */
+    width: 30%;
+    background-color: white;
+    margin-left: 40px;
+    flex-wrap: wrap;
+    /* margin-right: 2%; */
+    /* display: flex;
+    justify-content: right;
+    align-items: end; */
+}
+
+.column2 .freezer {
+    /* height: 75vh; */
+    width: 100%;
+}
+
+.column2 img {
+    width: 100%;
+}
+
+/* .column2 .recipe{
+    width: 100%;
+    height: 80vh;
+    background-color: green;
+} */
+.column2 .seven {
+    height: 94vh;
+    width: 100%;
+    /* text-align: center; */
+    margin-right: 20%;
+    margin-top: 20px;
+
+}
+
+.column2 .seven ol {
+    height: 20px;
+    width: 100%;
+    /* padding: 10px; */
+    list-style: none;
+    /* margin-top: 20px; */
+    /* font-size: 24px; */
+    /* color: whitesmoke; */
+}
+
+.column2 .seven li {
+    height: 53px;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 3px;
+    background-color: rgb(248 248 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-weight: 500;
+
+}
+
+.column2 .seven li a:hover {
+    opacity: 0.7;
+}
+
+.column2 .seven li a {
+    text-decoration: none;
+    font-size: .938rem;
+    color: #999999;
+}
+
+.column2 .seven ol .collections {
+    color: #734060;
+    padding-right: 100px;
+    font-size: 16PX;
+    font-weight: 700;
+}
+
+.column2 .seven ol .one {
+    width: 15px;
+    height: 15px;
+    left: 30px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #734060;
+    color: white;
+    padding-left: 5px;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+.column2 .seven ol .two {
+    width: 60%;
+    height: 50px;
+    left: 50px;
+    position: absolute;
+
+}
+
+.column2 .seven ol .three {
+    width: 10%;
+    height: 50px;
+    right: 10px;
+    position: absolute;
+
+
+}
+
+/* .seven ol .one {
+    padding-right: -4000px;
+}
+.kk {
+    text-align: right;
+} */
+/* .column2 .seven li{
+    margin-left: 100px;
+    margin-right: 100px;
+
+} */

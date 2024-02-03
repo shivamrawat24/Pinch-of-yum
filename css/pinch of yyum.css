@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pinch-containerr {
+    background-color: rgb(247, 250, 250);
+    height: 85vh;
+    width: 100%;
+    padding-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -95px;
+}
+
+.learn {
+    background-color: #f0f0f0;
+    height: 511px;
+    width: 381px;
+    margin-left: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+}
+
+.homeyou {
+    font-family: 'Drama regular';
+    font-size: 70px;
+    font-weight: 500;
+
+}
+
+.dark {
+
+    font-size: 17px;
+    color: rgb(143, 143, 143);
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+    font-weight: 500;
+}
+.learn button {
+    padding: 3% 5%;
+    font-family: 'open sans';
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    background-color: rgb(77 77 77);
+    border: none;
+    outline: none;
+    width: 150px;
+    margin: 0 auto;
+}
+.learn button:hover{
+    background-color: black;
+}
+
+.girl {
+    /* background-image: url(https://pinchofyum.com/wp-content/assets/images/home-lindsay-kitchen-380x480.jpg); */
+    height: 511px;
+    width: 381px;
+    margin-left: 5px;
+    flex-wrap: wrap;
+}
+.orange {
+    height: 511px;
+    width: 381px;
+    margin-left: 5px;
+    background-repeat: no-repeat;
+}
+
+.follow {
+    height: 170px;
+    background-color: rgba(114, 63, 95, 0.9);
+    display: flex;
+    padding-left: 5%;
+    flex-wrap: wrap;
+}
+.follow .US ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding-top: 60px;
+    flex-wrap: wrap;
+
+}
+.follow .US ul li {
+    height: 6vh;
+    width: 3vw;
+    border-radius: 50%;
+    background-color: white;
+    list-style: none;
+   margin-left: 5px;
+}
+.follow .US ul li:hover{
+    opacity: 0.6;
+}
+.follow .US ul li a {
+    text-decoration: none;
+    padding-top: 5px;
+    color: rgba(114, 63, 95, 0.9);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-wrap: wrap;
+}
+/* .sign {
+    padding-left: 25%;
+    padding-top: 5%;
+} */
+.Interest {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.span {
+    padding-bottom: 10px;
+    background-color: rgb(246, 219, 45);
+    height: 50px;
+    width: 65px;
+    display: inline-block;
+    padding-top: 13px;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    font-weight: 100;
+    flex-wrap: wrap;
+}
+.span:hover{
+    color: #abb8c3;
+}
+.fname {
+    height: 50px;
+    width: 250px;
+    font-size: 16px;
+    padding-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color:  rgb(143, 143, 143);
+    font-weight: 900;
+    outline: 0px;
+}
+
+.fa-facebook,
+.fa-pinterest,
+.fa-instagram,
+.fa-twitter {
+    color: rgba(114, 63, 95, 0.9);
+    font-size: 30px;
+}
+
+.ulquick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ulquick li {
+    list-style: none;
+    margin: 40px 4px 40px 0px;
+    padding: 10px 17px;
+    background-color: #f0f0f0;;
+    font-family: 'open sans';
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 17px;
+    position: relative;
+    cursor: pointer;
+}
+
+.ulquick .arian {
+    background-color: rgba(114, 63, 95, 0.9);
+    
+    color: white;
+}
+
+.ulquick .arian::after {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-style: solid;
+    border-width: 30px 16px 0;
+    content: "";
+    bottom: -10px;
+    border-top: 10px solid rgba(114, 63, 95, 0.9);
+    right: 63px;
+}
+ .ulquick .veggi:hover::after {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-style: solid;
+    border-width: 30px 16px 0;
+    content: "";
+    bottom: -10px;
+    border-top: 10px solid rgba(114, 63, 95, 0.9);
+    right: 63px;
+} 
+.ulquick .pin:hover::after {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-style: solid;
+    border-width: 30px 16px 0;
+    content: "";
+    bottom: -10px;
+    border-top: 10px solid rgba(114, 63, 95, 0.9);
+    right: 100px;
+} 
+
+.ulquick li.pin:hover,
+.ulquick li.veggi:hover {
+    background-color: rgba(114, 63, 95, 0.9);
+    color: white
+    
+}
+
+/* .ulquick .pin::after {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px transparent;
+    border-right: 10px transparent;
+    border-style: solid;
+    border-width: 30px 16px 0;
+    content: "";
+    bottom: -10px;
+    border-top: 10px solid rgba(114, 63, 95, 0.9);
+    right: 115px;
+} */
+
+.dessert {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dessert a {
+    text-decoration: none;
+    position: relative;
+}
+
+.dessert a img {
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+}
+
+.dessert p {
+    position: absolute;
+    bottom: 85px;
+    left: 28%;
+    background-color: rgb(232, 175, 75);
+    font-family: 'open sans';
+    padding: 8px 20px;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: 800;
+    color: white;
+}
+
+.dessert h3 {
+    padding: 20px;
+    list-style: none;
+    font-size: 20px;
+    padding-top: 30px;
+    font-weight: 900;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.dessert a:hover {
+    opacity: 0.6;
+}
+.heart{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 24px;
+    position: fixed;
+    bottom: 60px;
+    left: 96%;
+    color: rgba(114, 63, 95, 0.9);
+    box-shadow: -1px 5px 51px -9px black;
+    text-align: center;
+    padding-top: 13px;
+    background-color: white;
+}
+.search{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 18px;
+    position: fixed;
+    bottom: 4px;
+    left: 96%;
+    background-color:  rgba(114, 63, 95, 0.9);;
+    color: white;
+    text-align: center;
+    padding-top: 16px;
+    
+}
